@@ -1,0 +1,63 @@
+{
+  "name": "its-french",
+  "version": "1.0.0",
+  "description": "An SPA for my personal development as a software engineer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "NODE_ENV=production nodemon server/server.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development webpack serve & NODE_ENV=development nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsfrench/its-french.git"
+  },
+  "keywords": [
+    "N/A"
+  ],
+  "author": "Cheri French",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsfrench/its-french/issues"
+  },
+  "homepage": "https://github.com/itsfrench/its-french#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "amqplib": "^0.10.3",
+    "browserify": "^17.0.0",
+    "bson": "^6.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.6.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.18.0",
+    "redux": "^4.2.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "concurrently": "^8.2.2",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.53.0",
+    "eslint-import-resolver-webpack": "^0.13.8",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "nodemon": "^3.0.1",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
